@@ -52,7 +52,7 @@ export function Hero() {
                 </div>
 
                 <div className="relative shrink-0 mx-auto md:mx-0">
-                    <div className="w-48 h-48 md:w-56 md:h-56 rounded-full p-1.5 bg-gradient-to-tr from-blue-500 via-green-500 to-yellow-500">
+                    <div className="w-48 h-48 md:w-56 md:h-56 rounded-full p-1.5">
                         <div className="w-full h-full rounded-full border-4 border-white overflow-hidden bg-gray-100">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
