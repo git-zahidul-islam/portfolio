@@ -36,8 +36,8 @@ export function Projects() {
                             <div className="flex justify-between items-start mb-4">
                                 <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">{project.title}</h3>
                                 <div className="flex gap-2">
-                                    <ProjectLinkButton icon={Github} links={project.links.github} />
-                                    <ProjectLinkButton icon={Globe} links={project.links.live} />
+                                    <ProjectLinkButton icon={Github} links={project.links.github || []} />
+                                    <ProjectLinkButton icon={Globe} links={project.links.live || []} />
                                 </div>
                             </div>
                             <p className="text-gray-600 mb-6 h-20 overflow-hidden line-clamp-3">{project.description}</p>
