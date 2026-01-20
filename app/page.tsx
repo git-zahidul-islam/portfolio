@@ -13,7 +13,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col font-[family-name:var(--font-inter)]">
       <Header />
       <div className="flex-1 w-full max-w-5xl mx-auto p-4 md:p-8">
-        <div className="">
+        <div className="space-y-5">
           <Hero />
           <Experience />
           <Projects />
