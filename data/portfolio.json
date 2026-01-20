@@ -1,0 +1,183 @@
+{
+    "hero": {
+        "name": "Zahidul Islam",
+        "title": "Tech Entrepreneur & Educator",
+        "bio": "I build software products and teach modern web development to millions of learners worldwide. I am the founder of Learn with Sumit and logicBase Labs, and the co-founder of Analyzen, one of Bangladesh's pioneering digital transformation companies.",
+        "location": "Dhaka, Bangladesh",
+        "avatar": "https://github.com/shadcn.png"
+    },
+    "socials": [
+        {
+            "name": "Github",
+            "icon": "Github",
+            "url": "https://github.com"
+        },
+        {
+            "name": "LinkedIn",
+            "icon": "Linkedin",
+            "url": "https://linkedin.com"
+        },
+        {
+            "name": "Twitter",
+            "icon": "Twitter",
+            "url": "https://twitter.com"
+        },
+        {
+            "name": "Facebook",
+            "icon": "Facebook",
+            "url": "https://facebook.com"
+        },
+        {
+            "name": "Email",
+            "icon": "Mail",
+            "url": "mailto:example@email.com"
+        }
+    ],
+    "experience": [
+        {
+            "role": "Senior Frontend Engineer",
+            "company": "Tech Corp Global",
+            "period": "2023 - Present",
+            "description": "Leading the frontend team in building scalable web applications using Next.js and React."
+        },
+        {
+            "role": "Software Developer",
+            "company": "Innovative Solutions",
+            "period": "2021 - 2023",
+            "description": "Developed and maintained full-stack internal tools and client-facing dashboards."
+        }
+    ],
+    "education": [
+        {
+            "degree": "B.Sc in Computer Science & Engineering",
+            "institution": "Dhaka University of Engineering & Technology",
+            "year": "2018 - 2022",
+            "description": "Graduated with honors. Focused on Software Engineering and Artificial Intelligence."
+        },
+        {
+            "degree": "Higher Secondary Certificate",
+            "institution": "Dhaka College",
+            "year": "2016 - 2018",
+            "description": "Science concentration with high distinction."
+        }
+    ],
+    "skills": [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Python",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "GraphQL",
+        "Docker",
+        "AWS",
+        "Git"
+    ],
+    "projects": [
+        {
+            "title": "E-Commerce Dashboard",
+            "description": "A comprehensive dashboard for managing online stores, featuring real-time analytics and inventory management.",
+            "image": "/placeholder-project.jpg",
+            "tags": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS"
+            ],
+            "links": {
+                "github": [
+                    {
+                        "label": "Frontend Repo",
+                        "url": "#"
+                    },
+                    {
+                        "label": "Backend Repo",
+                        "url": "#"
+                    }
+                ],
+                "live": [
+                    {
+                        "label": "Live Demo",
+                        "url": "#"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Task Management App",
+            "description": "Collaborative task manager with drag-and-drop kanban boards and team workspaces.",
+            "image": "/placeholder-project.jpg",
+            "tags": [
+                "React",
+                "Redux",
+                "Node.js"
+            ],
+            "links": {
+                "github": [
+                    {
+                        "label": "Repo",
+                        "url": "#"
+                    }
+                ],
+                "live": [
+                    {
+                        "label": "Live App",
+                        "url": "#"
+                    },
+                    {
+                        "label": "Staging",
+                        "url": "#"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "AI Image Generator",
+            "description": "Web application that uses stable diffusion to generate images from text prompts.",
+            "image": "/placeholder-project.jpg",
+            "tags": [
+                "Python",
+                "FastAPI",
+                "React"
+            ],
+            "links": {
+                "github": [
+                    {
+                        "label": "Repo",
+                        "url": "#"
+                    }
+                ],
+                "live": [
+                    {
+                        "label": "Live",
+                        "url": "#"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Portfolio Website",
+            "description": "Modern personal portfolio with animations and clean UI design.",
+            "image": "/placeholder-project.jpg",
+            "tags": [
+                "Next.js",
+                "Framer Motion"
+            ],
+            "links": {
+                "github": [
+                    {
+                        "label": "Repo",
+                        "url": "#"
+                    }
+                ],
+                "live": [
+                    {
+                        "label": "Live",
+                        "url": "#"
+                    }
+                ]
+            }
+        }
+    ]
+}
