@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import data from "@/data/portfolio.json";
+import { Merge } from "lucide-react";
 
 export function Experience() {
     const { experience } = data;
@@ -27,7 +28,7 @@ export function Experience() {
                         className="flex gap-4 md:gap-8 items-start group"
                     >
                         <div className="w-12 h-12 shrink-0 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600 font-bold text-lg group-hover:bg-slate-200 transition-colors">
-                            {exp.company[0]}
+                        <Merge />
                         </div>
                         <div className="space-y-1">
                             <h3 className="text-xl font-semibold text-gray-900">{exp.role}</h3>

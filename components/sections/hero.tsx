@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, Globe, Youtube, Linkedin, Facebook, Twitter, Github, Mail } from "lucide-react";
+import { MapPin, Globe, Youtube, Linkedin, Facebook, Twitter, Github, Mail, Download } from "lucide-react";
 import data from "@/data/portfolio.json";
 
 const iconMap: Record<string, any> = {
@@ -34,21 +34,33 @@ export function Hero() {
                         <span>{hero.location}</span>
                     </div>
 
-                    <div className="flex flex-wrap gap-3">
-                        {socials.map((social, idx) => {
-                            const Icon = iconMap[social.icon] || Globe;
-                            return (
-                                <a
-                                    key={idx}
-                                    href={social.url}
-                                    className="p-2.5 border border-gray-200 rounded-lg text-gray-500 hover:text-black hover:border-gray-400 transition-colors"
-                                    aria-label={social.name}
-                                >
-                                    <Icon className="w-5 h-5" />
-                                </a>
-                            );
-                        })}
+                    <div className="flex justify-between items-center">
+                        <div className="flex flex-wrap gap-3">
+                            {socials.map((social, idx) => {
+                                const Icon = iconMap[social.icon] || Globe;
+                                return (
+                                    <a
+                                        key={idx}
+                                        href={social.url}
+                                        className="p-2.5 border border-gray-200 rounded-lg text-gray-500 hover:text-black hover:border-gray-400 transition-colors"
+                                        aria-label={social.name}
+                                    >
+                                        <Icon className="w-5 h-5" />
+                                    </a>
+                                );
+                            })}
+                        </div>
+                        <div>
+                            <a
+                                href="https://drive.google.com/uc?export=download&id=1HeVTvEgLDU3KfvykZyzSwy58v4XM9JFT"
+                                className="p-2.5 border border-gray-200 rounded-lg text-gray-500 hover:text-black hover:border-gray-400 transition-colors"
+                                aria-label="Download Resume"
+                            >
+                                Resume
+                            </a>
+                        </div>
                     </div>
+
                 </div>
 
                 <div className="relative shrink-0 mx-auto md:mx-0">
